@@ -44,6 +44,8 @@ Mapa precipitación media anual del año 2012 para Colombia resaltando sus depar
 
 Para la realización de este trabajo se tiene dos tipos de datos, un grupo de datos tipo polígono, los cuales describen zonas de igual valor de precipitación durante el año 2012 en Colombia, y otro grupo de datos tipo punto, el cual describe ciertas caracteristicas de las estaciones metereológicas como su fecha de instalación, su estado actual, su altura sobre el nivel del mar y su localización. los datos se tomaron de https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Precipitaci-n-Media-Total-Anual-Promedio-Multianua/2bm3-399z 
 
+Catalogo nacional de estaciones metereológicas: https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Cat-logo-Nacional-de-Estaciones-del-IDEAM/hp9r-jxuu/data
+
 ## 4. Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
 
 Para el desarrollo de este estudio se hicieron los siguiente procesos:
@@ -59,6 +61,14 @@ Para el desarrollo de este estudio se hicieron los siguiente procesos:
 Para la visualización de los datos se seleccionó la herramienta [Carto](https://carto.com/) con la cual es posible no solo cargar los datos adquiridos, sino analizarlos de diferente forma con diferentes herramientas para obtener más información de la que por si tienen en sus atributos. Inicialmente se realizo un cambio de estilo al mapa, utilizando una coloración de acuerdo a su valor, lo cual permite tener una idea clara de las zonas con mayor o menor precipitaciones anuales. a dicha capa de poligonos se le relaciona una leyenda y una herramienta de selección para cada cantidad de precipitación. 
 
 Descripción breve del procedimiento utilizado para publicar los mapas en la web
+
+https://geoportal.igac.gov.co/es/contenido/datos-abiertos-catastro
+
+Mapa estaciones en cada departamento: https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed
+
+
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Estaciones" src="//unimilitar.maps.arcgis.com/apps/Embed/index.html?webmap=8c5ab5af7e164052bbef57fe6598ff8c&extent=-87.5583,-1.9194,-60.9054,10.1772&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+
 
 Información utilizada: 
 
