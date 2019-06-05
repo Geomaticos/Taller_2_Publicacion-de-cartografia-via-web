@@ -67,7 +67,10 @@ https://geoportal.igac.gov.co/es/contenido/datos-abiertos-catastro
 Mapa estaciones en cada departamento: https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed
 
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Estaciones" src="//unimilitar.maps.arcgis.com/apps/Embed/index.html?webmap=8c5ab5af7e164052bbef57fe6598ff8c&extent=-87.5583,-1.9194,-60.9054,10.1772&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+Arcgis Online: 
+http://arcg.is/140S9u
+
+
 
 
 Información utilizada: 
