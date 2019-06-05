@@ -12,7 +12,7 @@ Repositorio colaborativo para curso de publicación de cartografía vía web, Es
 
 ## 1. Cuál es el problema a tratar?
 
-Para determinar el personal necesario por departamento disponible para el mantenimiento de equipos, se requiere conocer la cantidad de estaciones  metereológicas instaladas por departamento, logrando de esta forma contratar o desplazar el peresonal necesario a cada departamento de acuerdo a su infraestructura instalada.
+Para determinar el personal necesario por departamento disponible para el mantenimiento de equipos, se requiere conocer la cantidad de estaciones  metereológicas instaladas por departamento e identificar de forma rápida los departamentos con mayor número de estaciones instaladas, logrando de esta forma contratar o desplazar el peresonal necesario a cada departamento de acuerdo a su infraestructura.
 
 
 ## 2. Por qué un mapa ayuda a resolverlo?
