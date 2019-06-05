@@ -34,7 +34,7 @@ Para determinar el personal necesario por departamento disponible para el manten
 
 Teniendo una base de datos robusta con la localización espacial de cada una de las estaciones metereológicas instaladas en Colombia, se puede determinar a qué seccional de cada departamento corresponde cada estación, realizando un análisis espacial de localización con la información de departamentos de Colombia. 
 
- ![alt text](MetodoNatualEqualInterv.png "Logo Title Text 1")
+ ![alt text](CapasBase.PNG "Logo Title Text 1")
 
 Mapa precipitación media anual del año 2012 para Colombia resaltando sus departamentos.
 
