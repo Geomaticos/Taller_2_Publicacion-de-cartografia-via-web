@@ -51,19 +51,21 @@ Para el desarrollo de este estudio se hicieron los siguiente procesos:
 **Creación de archivo .shp:** Para el archivo de puntos se tomaron los datos crudos en tabla de excel y con la ayuda del software ArcMap se convirtieron a formato .shp de tipología de punto con todos sus atributos. 
 
 
-**Descarga del archivo .shp:** Los poligonos utilizados en el estudio se descargaron directamente en formato .shp y se cargaron de forma facil en la herramienta Carto. 
+**Descarga del archivo .shp:** Los poligonos utilizados en el estudio se descargaron directamente en formato .shp y se cargaron de forma fácil en la herramienta Carto. 
 
 
 ## 5. Descripción de los métodos / técnicas utilizadas para la visualización.
 
 Para la visualización de los datos se seleccionó la herramienta [Carto](https://carto.com/) con la cual es posible no solo cargar los datos adquiridos, sino analizarlos de diferente forma con diferentes herramientas para obtener más información de la que por si tienen en sus atributos. Inicialmente se realizo un cambio de estilo al mapa, utilizando una coloración de acuerdo a su valor, lo cual permite tener una idea clara de las zonas con mayor o menor precipitaciones anuales. a dicha capa de poligonos se le relaciona una leyenda y una herramienta de selección para cada cantidad de precipitación. 
 
+Descripción breve del procedimiento utilizado para publicar los mapas en la web
+
 Información utilizada: 
 
 | Nombre        | Tipo           | Extensión  |
 | ------------- |:-------------:| -----:|
 |Precipitación     | Polígono | .shp |
-| Departamentos     | Polígono      |   .shp |
+| Estaciones     | Punto      |   .shp |
 
 ## 6.Ventajas/ desventajas/ dificultades/ diferencias encontradas al utilizar qgis y arcgis para el desarrollo del ejercicio.
 
