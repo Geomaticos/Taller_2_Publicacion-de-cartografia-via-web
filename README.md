@@ -61,7 +61,7 @@ Se utilizó tambien la herramienta ArcGis Online, la cual permite también la vi
 Para visualizar el mapa realizado en **ArcGis Online** presione [Aquí](http://arcg.is/140S9u)
 
 
-## 6.Descripción breve del procedimiento utilizado para publicar los mapas en la web.
+## 6. Descripción breve del procedimiento utilizado para publicar los mapas en la web.
 
 A partir del ejercicio realizado en las dos plataformas se obtuvieron las siguientes conclusiones: 
 
@@ -71,7 +71,7 @@ A partir del ejercicio realizado en las dos plataformas se obtuvieron las siguie
 |Ventajas     | Visualización más amigable, análisis rápido e intuitivo| Permite el uso de información disponible en ArcGisOnline |
 | Desventajas     | No permite asignar permisos en la versión básica      |   El análisis no es tan simple, la visualización no es tan amigable|
 
-## 6.Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
+## 7. Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
 
 Las herramientas desktop ofrecen velocidad en el manejo de grandes cantidades de datos, pero están limitadas en cuanto a trabajo colaborativo y compartir de manera facil la información se trata, mientras que las herramientas web tienen su fortaleza en la simplicidad de su manejo y en la facilidad de el trabajo colaborativo. En resumen las herramientas web en un futuro en el que logren manejar grandes cantidades de datos van a ofrecer mejores rendimientos que las herramientas desktop. Pero por el momento cada una conserva su fortaleza, por tanto no se puede precindir ya de ninguna de las dos. 
 
