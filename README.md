@@ -10,24 +10,9 @@ Repositorio colaborativo para curso de publicación de cartografía vía web, Es
 ---
 # Departamentos de Colombia con mayor número de estaciones metereológicas instaladas.
 
-##xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Cuál es el problema a tratar?
-Por qué un mapa ayuda a resolverlo?
-Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
-Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
-Descripción de los métodos / técnicas utilizadas para la visualización.
-Se deben utilizar dos métodos diferentes para representar los datos.
-Cada método debe presentarse en un mapa diferente
-Descripción breve del procedimiento utilizado para publicar los mapas en la web
-Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
-Urls públicos de los dos mapas interactivos
-##xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
 ## 1. Cuál es el problema a tratar?
 
 Para determinar el personal necesario por departamento disponible para el mantenimiento de equipos, se requiere conocer la cantidad de estaciones  metereológicas instaladas por departamento, logrando de esta forma contratar o desplazar el peresonal necesario a cada departamento de acuerdo a su infraestructura instalada.
-
 
 
 ## 2. Por qué un mapa ayuda a resolverlo?
