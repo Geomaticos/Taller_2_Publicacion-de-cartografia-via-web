@@ -1,5 +1,5 @@
 # Taller_2
-Taller_2
+Objetivo: Utilizar servicios disponibles en la nube para publicar mapas interactivos para la web.
 
 # Publicación de cartografía vía web
 Repositorio colaborativo para curso de publicación de cartografía vía web, Especialización en Geomática. 
@@ -40,26 +40,23 @@ Se consulta un **mapa de precipitación total anual** con el cual se pretende ob
 
 Mapa precipitación media anual del año 2012 para Colombia resaltando sus departamentos.
 
-## 3. Descripción del mapa temático (variable semleccionada, utilidad?
+## 3. Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
 
-Para la realización del trabajo se seleccionó la variable de precipitación anual medida en mm por año, la cual se obtiene con un Pluviómetro manual lo cual es un indicador simple de la lluvia caída, consiste en un recipiente especial cilíndrico, por lo general de plástico, con una escala graduada en donde todas las marcas están a igual distancia entre sí. La altura del agua que llena la jarra es equivalente a la precipitación y se mide en mm. 
+Para la realización de este trabajo se tiene dos tipos de datos, un grupo de datos tipo polígono, los cuales describen zonas de igual valor de precipitación durante el año 2012 en Colombia, y otro grupo de datos tipo punto, el cual describe ciertas caracteristicas de las estaciones metereológicas como su fecha de instalación, su estado actual, su altura sobre el nivel del mar y su localización. los datos se tomaron de https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Precipitaci-n-Media-Total-Anual-Promedio-Multianua/2bm3-399z 
 
-## 4. Descripción de los métodos de clasificación seleccionados. Cuál es mejor para la variable seleccionada? por qué?
+## 4. Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
 
-Se utilizaron dos metodos de clasificación: "Natural Breaks" y "Equal Interval". Los dos métodos los describimos a continuación:
+Para el desarrollo de este estudio se hicieron los siguiente procesos:
 
-**Natual Breaks:** Las clases de cortes naturales se basan en las agrupaciones naturales inherentes a los datos. Los cortes de clase se caracterizan porque agrupan mejor los valores similares y maximizan las diferencias entre clases. Por tanto son los más adecuados para la clase de datos que tenemos.
-
-[Mapa Precipitación media anual año 2012 mediante clasificación Natural Breaks](https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualBreaks8%20clases.png)
-
-**Equal Interval:** Los intervalos equivalentes dividen el rango de valores de atributo en subrangos de igual tamaño. Con ello se permite especificar el número de intervalos. Este tipo de clasificaciones no es recomendado cuando se grafican datos que no guardan una distribucion sistemática, como el caso de cualquier evento natural. 
-
-[Mapa Precipitación media anual año 2012 mediante clasificación Equal Interval](https://raw.githubusercontent.com/Geomaticos/Publicacion-de-cartografia-via-web/master/MetodoNatualEqualInterv.png)
+**Creación de archivo .shp:** Para el archivo de puntos se tomaron los datos crudos en tabla de excel y con la ayuda del software ArcMap se convirtieron a formato .shp de tipología de punto con todos sus atributos. 
 
 
-## 5. Listado de fuentes de datos seleccionados( proveedor, enlace para descarga, descripcón, procedimiento utilizado(plugins extensiones, procesos, transformaciones de datos, etc)
+**Descarga del archivo .shp:** Los poligonos utilizados en el estudio se descargaron directamente en formato .shp y se cargaron de forma facil en la herramienta Carto. 
 
-Se descargó la informacion correspondiente a precipitación media anual de la pagina de [Sistema de información ambiental de Colombia](http://www.siac.gov.co/catalogo-de-mapas) con la cual se puede graficar los poligonos de precipitación media anual. Este mapa nos describe zonas con igual cantidad de precipitacion anual en Colombia en el año 2012, por otra parte descargamos de la pagina https://sites.google.com/site/seriescol/shapes el shape con la informacion de departamentos los cuales pueden ser superpuestos con el para obtener los datos solicitados por los organismos de emergencia. 
+
+## 5. Descripción de los métodos / técnicas utilizadas para la visualización.
+
+Para la visualización de los datos se seleccionó la herramienta [Carto](https://carto.com/) con la cual es posible no solo cargar los datos adquiridos, sino analizarlos de diferente forma con diferentes herramientas para obtener más información de la que por si tienen en sus atributos. Inicialmente se realizo un cambio de estilo al mapa, utilizando una coloración de acuerdo a su valor, lo cual permite tener una idea clara de las zonas con mayor o menor precipitaciones anuales. a dicha capa de poligonos se le relaciona una leyenda y una herramienta de selección para cada cantidad de precipitación. 
 
 Información utilizada: 
 
