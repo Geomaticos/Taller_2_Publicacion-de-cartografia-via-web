@@ -36,11 +36,11 @@ Teniendo una base de datos robusta con la localización espacial de cada una de 
 
  ![alt text](CapasBase.PNG "Logo Title Text 1")
 
-Mapa precipitación media anual del año 2012 para Colombia resaltando sus departamentos.
+Visualización simple de las capas utilizadas en el análisis.
 
 ## 3. Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
 
-Para la realización de este trabajo se tiene dos tipos de datos, un grupo de datos tipo polígono, los cuales describen zonas de igual valor de precipitación durante el año 2012 en Colombia, y otro grupo de datos tipo punto, el cual describe ciertas caracteristicas de las estaciones metereológicas como su fecha de instalación, su estado actual, su altura sobre el nivel del mar y su localización. los datos se tomaron de https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Precipitaci-n-Media-Total-Anual-Promedio-Multianua/2bm3-399z 
+Para la realización de este trabajo se tiene dos tipos de datos, un grupo de datos tipo polígono, los cuales corresponden a la información de departamentos de Colombia, y otro grupo de datos tipo punto, el cual describe ciertas caracteristicas de las estaciones metereológicas como su fecha de instalación, su estado actual, su altura sobre el nivel del mar y su localización. los datos se tomaron de https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Precipitaci-n-Media-Total-Anual-Promedio-Multianua/2bm3-399z 
 
 Catalogo nacional de estaciones metereológicas: https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Cat-logo-Nacional-de-Estaciones-del-IDEAM/hp9r-jxuu/data
 
@@ -50,23 +50,38 @@ Para el desarrollo de este estudio se hicieron los siguiente procesos:
 
 **Creación de archivo .shp:** Para el archivo de puntos se tomaron los datos crudos en tabla de excel y con la ayuda del software ArcMap se convirtieron a formato .shp de tipología de punto con todos sus atributos. 
 
-
-**Descarga del archivo .shp:** Los poligonos utilizados en el estudio se descargaron directamente en formato .shp y se cargaron de forma fácil en la herramienta Carto. 
-
+**Descarga del archivo .shp:** Los poligonos utilizados en el estudio se descargaron directamente en formato .shp y se cargaron de forma fácil en la herramienta Carto. La descarga se realizó en el siguiente enlace https://geoportal.igac.gov.co/es/contenido/datos-abiertos-catastro
 
 ## 5. Descripción de los métodos / técnicas utilizadas para la visualización.
 
-Para la visualización de los datos se seleccionó la herramienta [Carto](https://carto.com/) con la cual es posible no solo cargar los datos adquiridos, sino analizarlos de diferente forma con diferentes herramientas para obtener más información de la que por si tienen en sus atributos. Inicialmente se realizo un cambio de estilo al mapa, utilizando una coloración de acuerdo a su valor, lo cual permite tener una idea clara de las zonas con mayor o menor precipitaciones anuales. a dicha capa de poligonos se le relaciona una leyenda y una herramienta de selección para cada cantidad de precipitación. 
+Para la visualización, analisis de datos y compartir los resultados de manera ágil, se seleccionaron dos herramientas: 
+
+**Carto:** [Carto](https://carto.com/) 
+
+
+Inicialmente se utilizó la herramienta [Carto](https://carto.com/) con la cual es posible no solo cargar los datos adquiridos, sino analizarlos de diferente forma con diferentes herramientas para obtener más información de la que por si tienen en sus atributos. Inicialmente se realizo un cambio de estilo al mapa, utilizando una coloración de acuerdo a su valor, lo cual permite tener una idea clara de los departamentos con mayor número de estaciones metereológicas. a dicha capa de poligonos se le relaciona una leyenda y una herramienta de selección para departamento mostrando la cantidad de estaciones instaladas en cada departamento.
+
+## Mapa realizado en Carto:
+
+
+
+Para visualizar el mapa realizado en **Carto** presione [Aquí](https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed)
+
+**Arcgis online:** [ArcGis Online](https://www.arcgis.com/)
+
+Se utilizó tambien la herramienta ArcGis Online, la cual permite también la visualización y analisis de datos en linea, y compartir los resultados de forma simple. allí se encuentran diferentes herramientas de analisis, sin embargo ensayamos en este caso para nuestros objetivos utilizar un "Clustering" la cual agrupa los puntos de las estaciones por densidad y muestra una leyenda de acuerdo a la cantidad de estaciones cercanas. Esta herramienta no permite visualizar de forma clara el total de estaciones en cada departamento. 
+
+## Mapa realizado con ArcGis Online:
+
+
+
+Para visualizar el mapa realizado en **ArcGis Online** presione [Aquí](http://arcg.is/140S9u)
+
+
 
 Descripción breve del procedimiento utilizado para publicar los mapas en la web
 
 https://geoportal.igac.gov.co/es/contenido/datos-abiertos-catastro
-
-Mapa estaciones en cada departamento: https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed
-
-
-Arcgis Online: 
-http://arcg.is/140S9u
 
 
 
