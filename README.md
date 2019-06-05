@@ -19,7 +19,7 @@ Para determinar el personal necesario por departamento disponible para el manten
 
 Teniendo una base de datos robusta con la localización espacial de cada una de las estaciones metereológicas instaladas en Colombia, se puede determinar a qué seccional de cada departamento corresponde cada estación, realizando un análisis espacial de localización con la información de departamentos de Colombia. 
 
- ![alt text](CapasBase.PNG "Logo Title Text 1")
+ ![alt text](CapasBase.PNG "Capas Base Sin Editar")
 
 Visualización simple de las capas utilizadas en el análisis.
 
@@ -48,7 +48,7 @@ Inicialmente se utilizó la herramienta [Carto](https://carto.com/) con la cual 
 
 ## Mapa realizado en Carto:
 
- ![alt text](MapaCarto.PNG "Logo Title Text 1")
+ ![alt text](MapaCarto.PNG "Visualización en Carto")
 Para visualizar el mapa realizado en **Carto** presione [Aquí](https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed)
 
 **Arcgis online:** [ArcGis Online](https://www.arcgis.com/)
@@ -57,7 +57,7 @@ Se utilizó tambien la herramienta ArcGis Online, la cual permite también la vi
 
 ## Mapa realizado con ArcGis Online:
 
-![alt text](MapaArcGisOnline.PNG "Logo Title Text 1")
+![alt text](MapaArcGisOnline.PNG "Visualización en ArcGis Online")
 Para visualizar el mapa realizado en **ArcGis Online** presione [Aquí](http://arcg.is/140S9u)
 
 
