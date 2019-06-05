@@ -64,7 +64,6 @@ Inicialmente se utilizó la herramienta [Carto](https://carto.com/) con la cual 
 ## Mapa realizado en Carto:
 
  ![alt text](MapaCarto.PNG "Logo Title Text 1")
-
 Para visualizar el mapa realizado en **Carto** presione [Aquí](https://geomaticos.carto.com/builder/ba2b705a-2b36-4ff2-97d5-49de0a03bb12/embed)
 
 **Arcgis online:** [ArcGis Online](https://www.arcgis.com/)
@@ -74,24 +73,21 @@ Se utilizó tambien la herramienta ArcGis Online, la cual permite también la vi
 ## Mapa realizado con ArcGis Online:
 
 ![alt text](MapaArcGisOnline.PNG "Logo Title Text 1")
-
 Para visualizar el mapa realizado en **ArcGis Online** presione [Aquí](http://arcg.is/140S9u)
 
 
 
-Descripción breve del procedimiento utilizado para publicar los mapas en la web
+## 6.Descripción breve del procedimiento utilizado para publicar los mapas en la web.
 
-https://geoportal.igac.gov.co/es/contenido/datos-abiertos-catastro
-
-
+A partir del ejercicio realizado en las dos plataformas se obtuvieron las siguientes conclusiones: 
 
 
 Información utilizada: 
 
-| Nombre        | Tipo           | Extensión  |
+| Nombre        | Carto          | ArcGis Online  |
 | ------------- |:-------------:| -----:|
-|Precipitación     | Polígono | .shp |
-| Estaciones     | Punto      |   .shp |
+|Ventajas     | Visualización más amigable | Permite el uso de información disponible en ArcGisOnline |
+| Desventajas     | No permite asignar permisos en la versión básica      |   El análisis no es tan simple |
 
 ## 6.Ventajas/ desventajas/ dificultades/ diferencias encontradas al utilizar qgis y arcgis para el desarrollo del ejercicio.
 
