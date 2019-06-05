@@ -32,9 +32,7 @@ Para determinar el personal necesario por departamento disponible para el manten
 
 ## 2. Por qué un mapa ayuda a resolverlo?
 
-La visualizacion de datos espaciales permite determinar el efecto que el aumento de una variable tiene sobre una zona, en este caso la informacion de estaciones instaladas y la información de limites departamentales de Colombia.
-
-En este caso realizamos un cruce entre las capas de los departamentos de Colombia con la información de las estaciones instaladas para determinar cuáles de estas estaciones pertenecen a cada departamento. 
+Teniendo una base de datos robusta con la localización espacial de cada una de las estaciones metereológicas instaladas en Colombia, se puede determinar a qué seccional de cada departamento corresponde cada estación, realizando un análisis espacial de localización con la información de departamentos de Colombia. 
 
  ![alt text](MetodoNatualEqualInterv.png "Logo Title Text 1")
 
