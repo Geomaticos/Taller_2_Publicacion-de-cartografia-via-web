@@ -86,8 +86,8 @@ Información utilizada:
 
 | Nombre        | Carto          | ArcGis Online  |
 | ------------- |:-------------:| -----:|
-|Ventajas     | Visualización más amigable | Permite el uso de información disponible en ArcGisOnline |
-| Desventajas     | No permite asignar permisos en la versión básica      |   El análisis no es tan simple |
+|Ventajas     | Visualización más amigable, análisis rápido e intuitivo| Permite el uso de información disponible en ArcGisOnline |
+| Desventajas     | No permite asignar permisos en la versión básica      |   El análisis no es tan simple, la visualización no es tan amigable|
 
 ## 6.Ventajas/ desventajas/ dificultades/ diferencias encontradas al utilizar qgis y arcgis para el desarrollo del ejercicio.
 
