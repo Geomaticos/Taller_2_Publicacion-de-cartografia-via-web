@@ -8,7 +8,7 @@ Repositorio colaborativo para curso de publicación de cartografía vía web, Es
 #### Fernando Alcarcel Gutierrez `3101441`
 #### Albeiro López Pulido `3101446`
 ---
-# Precipitación media anual año 2012 Colombia
+# Departamentos de Colombia con mayor número de estaciones metereológicas instaladas.
 
 ##xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Cuál es el problema a tratar?
@@ -26,15 +26,15 @@ Urls públicos de los dos mapas interactivos
 
 ## 1. Cuál es el problema a tratar?
 
-Para determinar el personal necesario por departamento disponible para atender amenazas por deslizamientos en el año 2012, se requiere conocer la cantidad de lluvias anuales en cada departamento, sectorizado por cantidad de lluvias anuales y tomar esta información como insumo para conocer cual departamento necesita más inversión al respecto. 
+Para determinar el personal necesario por departamento disponible para el mantenimiento de equipos, se requiere conocer la cantidad de estaciones  metereológicas instaladas por departamento, logrando de esta forma contratar o desplazar el peresonal necesario a cada departamento de acuerdo a su infraestructura instalada.
 
 
 
 ## 2. Por qué un mapa ayuda a resolverlo?
 
-La visualizacion de datos espaciales permite determinar el efecto que el aumento de una variable tiene sobre una zona, en este caso, departamentos de Colombia. 
+La visualizacion de datos espaciales permite determinar el efecto que el aumento de una variable tiene sobre una zona, en este caso la informacion de estaciones instaladas y la información de limites departamentales de Colombia.
 
-Se consulta un **mapa de precipitación total anual** con el cual se pretende observar la precipitación media anual por departamento en Colombia en el año 2012 y con esto predecir zonas suceptibles a desastres naturales resultado de un aumento en las lluvias de una zona particular.
+En este caso realizamos un cruce entre las capas de los departamentos de Colombia con la información de las estaciones instaladas para determinar cuáles de estas estaciones pertenecen a cada departamento. 
 
  ![alt text](MetodoNatualEqualInterv.png "Logo Title Text 1")
 
